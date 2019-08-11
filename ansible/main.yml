@@ -5,4 +5,4 @@
 
   roles:
     - olidrouin.nfs
-    - olidrouin.packer-rhel
+    - olidrouin.packer_rhel
