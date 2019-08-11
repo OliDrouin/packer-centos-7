@@ -4,8 +4,7 @@
 
 **Pre-built Vagrant Box**:
 
-  - [`vagrant init geerlingguy/centos7`](https://vagrantcloud.com/geerlingguy/boxes/centos7)
-  - See older versions: http://files.midwesternmac.com/
+  - [`vagrant init olidrouin/centos7`](https://vagrantcloud.com/olidrouin/boxes/centos7)
 
 This example build configuration installs and configures CentOS 7 x86_64 minimal using Ansible, and then generates a Vagrant box file for VirtualBox.
 
@@ -24,7 +23,7 @@ The following software must be installed/present on your local machine before yo
 
 Make sure all the required software (listed above) is installed, then cd to the directory containing this README.md file, and run:
 
-    $ packer build -var 'version=1.2.0' centos7.json
+    $ packer build -var 'version=1.2.1' centos7.json
 
 After a few minutes, Packer should tell you the box was generated successfully, and the box was uploaded to Vagrant Cloud.
 
@@ -42,4 +41,7 @@ MIT license.
 
 ## Author Information
 
+Olivier Drouin, 2019.
+
+Original Author: 
 Created in 2014 by [Jeff Geerling](https://www.jeffgeerling.com/), author of [Ansible for DevOps](https://www.ansiblefordevops.com/).
